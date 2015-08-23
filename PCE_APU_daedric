@@ -1,0 +1,33 @@
+include GENERIC
+ident 		PCE_APU
+
+device crypto
+device cryptodev
+device pf
+device pflog
+device pfsync
+device if_bridge
+
+
+options         ALTQ
+options         ALTQ_CBQ
+options         ALTQ_RED
+options         ALTQ_RIO
+options         ALTQ_HFSC
+options         ALTQ_CDNR
+options         ALTQ_PRIQ
+
+options         DEVICE_POLLING
+options         NETGRAPH
+options         NETGRAPH_BPF
+options         NETGRAPH_ETHER
+options         NETGRAPH_IFACE
+options         NETGRAPH_PPP
+options         NETGRAPH_PPPOE
+options         NETGRAPH_PPTPGRE
+options         NETGRAPH_MPPC_ENCRYPTION
+options         NETGRAPH_SOCKET
+options         NETGRAPH_KSOCKET
+options         NETGRAPH_VJC
+
+
