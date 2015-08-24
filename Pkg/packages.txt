@@ -1,0 +1,10 @@
+dhcpcd-6.8.2_1
+gettext-runtime-0.19
+indexinfo-0.2.3
+libidn-1.31
+nmap-6.47
+pcre-8.37_2
+pkg-1.5.4
+vim-lite-7.4.752
+wget-1.16.3
+whois-5.1.5
