@@ -1,5 +1,5 @@
 dhcpcd-6.8.2_1
-gettext-runtime-0.19
+gettext-runtime-0.19.4
 indexinfo-0.2.3
 libidn-1.31
 nmap-6.47
