@@ -7,7 +7,12 @@ device pf
 device pflog
 device pfsync
 device if_bridge
+device carp
 
+options		RACCT
+options		RCTL
+
+options 	UFS_ACL
 
 options         ALTQ
 options         ALTQ_CBQ
@@ -30,4 +35,6 @@ options         NETGRAPH_SOCKET
 options         NETGRAPH_KSOCKET
 options         NETGRAPH_VJC
 
+options IPSEC
+options MROUTING
 
