@@ -1,5 +1,4 @@
 ca_root_nss-3.19.2
-dhcpcd-6.8.2_1
 easy-rsa-2.2.2
 gettext-runtime-0.19.4
 indexinfo-0.2.3
@@ -21,3 +20,5 @@ wget-1.16.3
 whois-5.1.5
 libevent2-2.0.22_1
 openssl-1.0.2_4
+isc-dhcp43-relay-4.3.2.txz
+isc-dhcp43-server-4.3.2.txz
